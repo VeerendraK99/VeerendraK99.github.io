@@ -763,6 +763,23 @@ img{
     margin-bottom:var(--mb-0-75);
 }
 
+.portfolio__active[data-content]{
+    display: block;
+}
+
+.portfolio__button{
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    cursor: pointer;
+}
+
+.portfolio__button:hover{
+    color:var(--first-color)
+}
+
+.portfolio__button.portfolio__active{
+    color: var(--first-color);
+}
 
 .portfolio__button:hover .button__icon{
     transform: translateX(.25rem);
