@@ -776,6 +776,18 @@ img{
     transform: translateX(.25rem);
 }
 
+.portfolio [data-content]{
+    display: none;
+}
+
+.portfolio__active[data-content]{
+    display: block;
+}
+
+.portfolio__button.portfolio__active{
+    color: var(--first-color);
+}
+
 .swiper-button-prev::after,
 .swiper-button-next::after{
     content:'',
