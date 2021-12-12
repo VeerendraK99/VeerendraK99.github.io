@@ -207,7 +207,7 @@ themeButton.addEventListener('click', () => {
 
 
 function sendMail() {
-    var link = "mailto:aditya28sarin@gmail.com"
+    var link = "mailto:veerendra.kanagala9@gmail.com"
              + "&subject=" + encodeURIComponent("This is my subject")
              + "&body=" + encodeURIComponent(document.getElementById('sent_msg').value);
     
